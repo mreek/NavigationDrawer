@@ -55,7 +55,7 @@ public class IntroActivity extends AppIntro {
         // Instead of fragments, you can also use our default slide.
         // Just create a `SliderPage` and provide title, description, background and image.
         // AppIntro will do the rest.
-
+//
         //SliderPage sliderPage = new SliderPage();
 /*
         sliderPage.setTitle("Rawaj");

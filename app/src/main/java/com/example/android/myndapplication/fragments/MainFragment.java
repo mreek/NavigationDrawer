@@ -12,13 +12,19 @@ import com.example.android.myndapplication.R;
 
 public class MainFragment extends Fragment {
 
-    public MainFragment() {
+    public static MainFragment newInstance() {
+        MainFragment fragment = new MainFragment();
+        return fragment;
     }
 
-    @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.main_fragment, container, false);
-        return view;
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.main_fragment, container, false);
     }
 }

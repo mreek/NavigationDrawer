@@ -30,10 +30,12 @@
                 android:id="@+id/leftRight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/colorPrimary"
+
+                android:background="@color/colorPrimary"
                 android:src="@drawable/ic_menu_black_24dp" />
 
         </RelativeLayout>
+
     </android.support.v7.widget.Toolbar>
 
 </android.support.design.widget.AppBarLayout>

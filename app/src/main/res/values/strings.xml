@@ -1,9 +1,52 @@
 <resources>
-    <string name="app_name">My ND Application</string>
+    <string name="app_name">My Rawaj</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Rawaj</string>
+    <string name="nav_header_subtitle">Rawaj.market@Rawaj.ma</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    // Buttom Menu items
+    <string name="Home">Annonces</string>
+    <string name="Account">Compte</string>
+    <string name="Chat">Chat</string>
+    <string name="sell">vendez</string>
+    <string name="Notification">Notifications</string>
+
+
+    <string name="gallery">Mes Annonces</string>
+    <string name="favorite">Favoris</string>
+    <string name="cart">Panier</string>
+
+
+    <string name="send">Envoyer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Title">welcome to rawaj</string>
+
+
+    <string name="slide_1_title">Welcome To rawaj </string>
+    <string name="slide_1_desc">the easiest way to set up an online store</string>
+
+    <string name="slide_2_title">Search products</string>
+    <string name="slide_2_desc">Find your products by searching within a price range </string>
+
+    <string name="slide_3_title">Post A Free Add</string>
+    <string name="slide_3_desc">Post Free ads for your products and get sails </string>
+
+
+
+    <string name="slide_4_title">Camera Permission</string>
+    <string name="slide_4_desc">Allow Us to Have the Camera permission in order to capture your products </string>
+
+
+    <string name="Share">Partager</string>
+    <string name="Communicate">communiquer</string>
+    <string name="Contact">Contactez-nous</string>
+    <string name="ads">Annonces</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
 </resources>

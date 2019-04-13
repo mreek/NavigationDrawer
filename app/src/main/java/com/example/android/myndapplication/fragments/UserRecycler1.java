@@ -19,9 +19,14 @@ import java.util.List;
 
 public class UserRecycler1 extends Fragment {
 
+    public static UserRecycler1 newInstance() {
+        UserRecycler1 fragment = new UserRecycler1();
+        return fragment;
+    }
     private RecyclerView recyclerView;
     private UserAdapter adapter;
     private List<User> userList;
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

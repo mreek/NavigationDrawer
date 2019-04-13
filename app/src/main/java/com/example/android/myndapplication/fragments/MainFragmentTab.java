@@ -14,14 +14,17 @@ import com.example.android.myndapplication.R;
 import com.example.android.myndapplication.adapter.TabAdapter;
 
 public class MainFragmentTab extends Fragment {
+    public static MainFragmentTab newInstance() {
+        MainFragmentTab fragment = new MainFragmentTab();
+        return fragment;
+    }
+//    private TabAdapter adapter;
+  //  private TabLayout tableLayout;
+   // private ViewPager viewPager;
 
-    private TabAdapter adapter;
-    private TabLayout tableLayout;
-    private ViewPager viewPager;
-
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+//    @Nullable
+ //   @Override
+   /* public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.tabs, container, false);
 
         viewPager = view.findViewById(R.id.request_orders_view_pager);
@@ -37,4 +40,5 @@ public class MainFragmentTab extends Fragment {
 
         return view;
     }
+    */
 }

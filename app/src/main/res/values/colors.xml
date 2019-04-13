@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <color name="colorPrimary">#FFD13D</color>
-    <color name="colorPrimaryDark">#FFD13D</color>
-    <color name="colorAccent">#FF4081</color>
+<!-- -->
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#FFEB3B</color>
 
     <color name="white_gray">#dcd9d9</color>
+    <color name="white">#ffffff</color>
 
+    <color name="black">#000000</color>
+    <color name="grey">#495058</color>
+    <color name="blue">#0097A7</color>
+    <color name="tabs">#30D7EC</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+<!--
+
+        <color name="accent_translucent">#80FFEB3B</color>
+    <color name="accent_bright">#FFF493</color>
+    -->
 </resources>

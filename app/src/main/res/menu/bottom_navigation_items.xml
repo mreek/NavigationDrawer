@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/action_item1"
+        android:id="@+id/action_announces"
         android:icon="@drawable/ic_store"
-        android:title="@string/Home"/>
+        android:title="@string/Announces" />
     <item
-        android:id="@+id/action_item2"
+        android:id="@+id/action_account"
         android:icon="@drawable/ic_user"
-        android:title="@string/Account"
-        
-        />
+        android:title="@string/Account" />
     <item
-        android:id="@+id/action_item3"
+        android:id="@+id/action_sell"
         android:icon="@drawable/ic_plus"
         android:title="@string/sell"/>
     <item
-        android:id="@+id/action_item4"
+        android:id="@+id/action_chat"
         android:icon="@drawable/ic_chat"
         android:title="@string/Chat"/>
     <item
-        android:id="@+id/action_item5"
+        android:id="@+id/action_notifications"
         android:icon="@drawable/ic_notification"
         android:title="@string/Notification"/>
 </menu>

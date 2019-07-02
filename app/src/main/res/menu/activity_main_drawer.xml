@@ -4,18 +4,27 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_store"
+            android:id="@+id/nav_announces"
+            android:icon="@drawable/ic_promotion"
             android:title="@string/ads" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_user"
+            android:title="@string/Account" />
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/ic_price_tag"
+            android:title="@string/sell" />
+        <item
+            android:id="@+id/nav_chat"
             android:icon="@drawable/ic_chat"
             android:title="@string/Chat" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_favorite"
-            android:title="@string/favorite" />
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/Notification" />
 
     </group>
 

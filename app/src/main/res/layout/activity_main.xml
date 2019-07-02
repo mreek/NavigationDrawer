@@ -15,7 +15,6 @@
 
         <include layout="@layout/app_bar_main" />
 
-
         <FrameLayout
             android:id="@+id/f_container"
             android:layout_width="match_parent"

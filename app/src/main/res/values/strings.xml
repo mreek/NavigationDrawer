@@ -8,12 +8,11 @@
     <string name="action_settings">Settings</string>
 
     // Buttom Menu items
-    <string name="Home">Annonces</string>
-    <string name="Account">Compte</string>
+    <string name="Announces">Announces</string>
+    <string name="Account">Account</string>
     <string name="Chat">Chat</string>
-    <string name="sell">vendez</string>
+    <string name="sell">Sell</string>
     <string name="Notification">Notifications</string>
-
 
     <string name="gallery">Mes Annonces</string>
     <string name="favorite">Favoris</string>

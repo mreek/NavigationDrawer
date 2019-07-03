@@ -3,17 +3,14 @@ package com.example.android.myndapplication.activity;
 
 import android.Manifest;
 import android.content.Intent;
-import android.graphics.Color;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.view.animation.Animation;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.example.android.myndapplication.R;
 import com.example.android.myndapplication.adapter.SampleSlide;
 import com.github.paolorotolo.appintro.AppIntro;
-import com.github.paolorotolo.appintro.AppIntroFragment;
-import com.github.paolorotolo.appintro.model.SliderPage;
 
 
 public class IntroActivity extends AppIntro {
@@ -80,7 +77,7 @@ public class IntroActivity extends AppIntro {
     }
 
     @Override
-    public void onSkipPressed(android.support.v4.app.Fragment currentFragment) {
+    public void onSkipPressed(Fragment currentFragment) {
         super.onSkipPressed(currentFragment);
         // Do something when users tap on Skip button.
         finish();
